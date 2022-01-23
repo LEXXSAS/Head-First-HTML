@@ -85,6 +85,14 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 
-#headerSlogan {
+#header img#headerSlogan {
   float: right;
+}
+
+#award {
+  position: absolute;
+  top: 30px;
+  /* left: 365px; */
+  left: 40%;
+  /* transform: translate(0, 50%); */
 }
