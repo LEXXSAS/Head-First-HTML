@@ -84,3 +84,7 @@ a:visited {
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
 }
+
+#headerSlogan {
+  float: right;
+}
