@@ -5,41 +5,59 @@
     <title>Starbuzz Coffee</title>
     <link rel="stylesheet" type="text/css" href="starbuzz.css">
   </head> 
-
+  <div id="award">
+    <img src="images/award.gif" alt="award">
+  </div>
   <body>
-    <div id="header">
-      <img id="headerLogo" src="images/headerlogo.gif" alt="Starbuzz Coffee header image">
-      <img id="headerSlogan" src="images/headerSlogan.gif" alt="Starbuzz Coffee header slogan">
-    </div>
-    <div id="award">
-      <img src="images/award.gif" alt="award">
-    </div>
-    <div id="tableContainer">
-      <div id="tableRow">
-    <div id="drinks">
-      <h1>Напитки</h1>
-      <p>Латте</p>
-      <p>Кофе мокко</p>
-      <p>Капучинно</p>
-      <p>Чай</p>
-      <h1>ОСВЕЖАЮЩИЕ НАПИТКИ</h1>
-      <p>Мы с гордостью подаем освежающие напитки, которые готовят наши друзья в гостевой Head First.</p>
-      <p>Охлажденный зеленый чай</p>
-      <p>Охлажденный малиновый сироп</p>
-      <p>Чудо-напиток из голубики</p>
-      <p>Клюквенный антиоксидантный взрыв</p>
-      <p>Чай "Льдинка"</p>
-      <p>"Подзарядка для мозга"</p>
-    </div>
-    <div id="main">
-      <h1>QUALITY COFFEE, QUALITY CAFFEINE</h1>
+    <header class="top">
+      <img id="headerLogo"
+           src="images/headerLogo.gif" alt="Starbuzz Coffee header logo image">
+      <img id="headerSlogan"
+          src="images/headerSlogan.gif" alt="Providing all the caffeine you need to power your life.">
+    </header>
+	
+	<nav>
+	<ul>
+	<li class="selected"><a href="index.html">Home</a></li>
+	<li><a href="blog.html">Blog</a></li>
+	<li><a href="index.html">Inventions </a></li>
+	<li><a href="index.html">Recipes </a></li>
+	<li><a href="index.html">Addresses</a></li>
+    </ul>
+	</nav>
+
+	<div id="tableContainer">
+	<div id="tableRow">
+    
+    <section id="drinks">
+      <h1>Напитки кафе Starbuzz</h1>
+        <p>Кофе с молоком, $1.49</p>
+        <p>Латтэ, $2.35</p>
+        <p>Капуччино, $1.89</p>
+        <p>Чай Чиа, $1.85</p>
+      <h1>ELIXIRS</h1>
+        <p>
+          Мы с гордостью продаем эликсиры, сваренные нашими друзьями
+          из Head First. 
+        </p>
+        <p>Холодный Ice Tea, $2.99</p>
+        <p>Клубничный Ice Concentration, $2.99</p>
+        <p>Земляничный Bliss Elixir, $2.99</p>
+        <p>Черешневый Antioxidant Blast, $2.99</p>
+        <p>Чай Chiller, $2.99</p>
+        <p>Черный Brain Brew, $2.99</p>
+    </section>
+
+    <section id="main">
+      <article>
+        <header>
+      <h1>КАЧЕСТВЕННЫЙ КОФЕ, КАЧЕСТВЕННЫЙ КОФЕИН</h1>
+        </header>
       <p>
-        At Starbuzz Coffee, we are dedicated to filling all your  caffeine needs through our 
-        quality coffees and teas. Sure, we want you to have a great cup of coffee and a great 
-        coffee experience as well, but we're the only company that actively monitors and 
-        optimizes caffeine levels. So stop by and fill your cup, or order online with our new Bean 
-        Machine online order form, and get that quality Starbuzz coffee that you know will meet 
-        your caffeine standards.
+          В Starbuzz Coffee мы стремимся удовлетворить все ваши потребности в кофеине с помощью нашего
+          качественного кофе и чая. 
+          Конечно, мы хотим, чтобы вы выпили отличную чашку кофе, но мы единственная компания, которая активно отслеживает и оптимизирует уровень кофеина. Так что зайдите и наполните свою чашку или закажите онлайн с нашим новым Bean.
+          Подготовьте форму онлайн-заказа и получите качественный кофе Starbuzz, который, как вы знаете, ваши стандарты кофеина. 
       </p>
       <p>
         And, did we mention <em>caffeine</em>? We've just started funding the guys doing all 
@@ -48,7 +66,11 @@
         If you want the latest on coffee and other caffeine products, 
         stop by and pay them a visit.
       </p>
-      <h1>OUR STORY</h1>
+    </article>
+    <article>
+      <header>
+      <h1>НАША ИСТОРИЯ</h1>
+      </header>
       <p>
         "A man, a plan, a coffee bean". Okay, that doesn't make a palindrome, but it resulted
         in a damn good cup of coffee.  Starbuzz's CEO is that man, and you already know his 
@@ -60,7 +82,11 @@
         which is growing rapidly and helping to meet the caffeine needs of a whole new set of 
         customers.  
       </p>
-      <h1>STARBUZZ COFFEE BEVERAGES</h1>
+    </article>
+    <article>
+      <header>
+      <h1>КОФЕЙНЫЕ НАПИТКИ STARBUZZ</h1>
+      </header>
       <p>
         We've got a variety of caffeinated beverages to choose
         from at Starbuzz, including our 
@@ -76,38 +102,42 @@
         <a href="form.html" title="form.html">Bean Machine</a>, and take
         the Starbuzz Coffee experience home.
       </p>
-    </div>
+    </article>
+    </section>
 
-    <div id="sidebar">
+    <aside>
       <p class="beanheading">
         <img src="images/bag.gif" alt="Bean Machine bag">
         <br>
-        ORDER ONLINE
-        with the 
+        СДЕЛАТЬ ЗАКАЗ
+        с 
         <a href="form.html">BEAN MACHINE</a>
         <br>
         <span class="slogan">
-            FAST <br>
-            FRESH <br>
-            TO YOUR DOOR <br>
+            БЫСТРО <br>
+            СВЕЖЕЕ <br>
+            ДО ДВЕРИ <br>
         </span>
       </p>
       <p>
-        Why wait?  You can order all our fine coffees right from the Internet with our new, 
-        automated Bean Machine.  How does it work?  Just click on the Bean Machine link, 
-        enter your order, and behind the scenes, your coffee is roasted, ground 
-        (if you want), packaged, and shipped to your door.
+		Зачем ждать? Вы можете заказать все наши изысканные сорта кофе прямо через Интернет с помощью нашей новой автоматизированной кофемашины. Как это работает? Просто нажмите на ссылку Bean Machine, введите свой заказ, и за кулисами ваш кофе будет обжарен, смолот (если хотите), упакован и доставлен к вашей двери. 
       </p>
-    </div>
-  </div>
-</div>
+    </aside>
 
-    <div id="footer">
+	</div> <!-- tableRow -->
+	</div> <!-- tableContainer -->
+
+  <div id="coupon">
+    <a href="freecoffee.html" title="Щелкните здесь, чтобы получить бесплатный кофе">
+      <img src="images/ticket.gif" alt="Купон на бесплатный кофе Starbuzz">
+    </a>
+  </div>
+    <footer>
       &copy; 2022, Starbuzz Coffee
       <br>
       All trademarks and registered trademarks appearing on 
       this site are the property of their respective owners.
-    </div>
+    </footer>
 
   </body>
 </html>
