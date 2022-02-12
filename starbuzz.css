@@ -196,8 +196,8 @@ a:visited {
 }
 
 nav {
-    background-color: #efe5d0;
-	margin: 10px 10px 0px 10px;
+  background-color: #efe5d0;
+  margin: 10px 10px 0px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
